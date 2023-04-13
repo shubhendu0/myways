@@ -2,7 +2,7 @@ const output = (num) => {
     const digitSum = totalSum(num);
     console.log(digitSum)
     var result = "";
-    for(let i=1; i<digitSum-1; i++){
+    for(let i=1; i<=digitSum; i++){
         if(i%4==0 && i%5==0){
             result += "FizzBuzz ";
         }
